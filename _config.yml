@@ -22,7 +22,7 @@ description: Khái niệm cơ bản nhất về Machine Learning
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
-navbar-links:k
+navbar-links:
   About Me: "aboutme"
   Resources:
     - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
@@ -150,7 +150,6 @@ markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
 paginate: 5
-
 kramdown:
   input: GFM
 
