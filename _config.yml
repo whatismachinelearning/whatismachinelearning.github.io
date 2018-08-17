@@ -129,12 +129,12 @@ share-links-active:
 # disqus: ""
 
 # To use Facebook Comments, fill in a Facebook App ID
-# fb_comment_id: ""
+fb_comment_id: "462955144219041"
 
 # --- Misc --- #
 
 # Facebook App ID
-# fb_app_id: ""
+fb_app_id: "462955144219041"
 
 # Excerpt Word Length
 # Truncates the excerpt to the specified number of words on the index page
