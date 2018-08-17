@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Tags
-subtitle: Browse this website by tag.
+subtitle: Duyệt blog bằng tags.
 ---
 
 # Tags
-Click on each line to get to the relevant archive section.
+Click vào tag để xem các bài viết liên quan.
 
 <div class='list-group'>
   {% assign tags_list = site.tags %}
@@ -30,7 +30,7 @@ Click on each line to get to the relevant archive section.
 <hr>
 
 # Table of content
-Click on each post title to view it.
+Click vào tiêu đề bài viết để đọc.
 
 {% for tag in site.tags %}
   <h2 class='tag-header' id="{{ tag[0] }}-ref">{{ tag[0] }}</h2>
