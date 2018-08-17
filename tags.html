@@ -1,34 +1,55 @@
 ---
 layout: page
-title: 'Tag Index'
+title: Tags
+subtitle: Browse this website by tag.
 ---
 
-{%- capture site_tags -%}
-    {%- for tag in site.tags -%}
-        {{- tag | first -}}{%- unless forloop.last -%},{%- endunless -%}
-    {%- endfor -%}
-{%- endcapture -%}
-{%- assign tags_list = site_tags | split:',' | sort -%}
+# Tags
+Click on each line to get to the relevant archive section.
 
-{%- for tag in tags_list -%}
-    <a href="#{{- tag -}}" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;{{- tag -}}&nbsp;({{site.tags[tag].size}})</a>
-{%- endfor -%}
+<div class='list-group'>
+  {% assign tags_list = site.tags %}
 
-<div id="full-tags-list">
-{%- for tag in tags_list -%}
-    <h2 id="{{- tag -}}" class="linked-section">
-        <i class="fa fa-tag" aria-hidden="true"></i>
-        &nbsp;{{- tag -}}&nbsp;({{site.tags[tag].size}})
-    </h2>
-    <div class="post-list">
-        {%- for post in site.tags[tag] -%}
-            <div class="tag-entry">
-                <a href="{{- site.url -}}{{- post.url -}}">{{- post.title -}}</a>
-                <div class="entry-date">
-                    <time datetime="{{- post.date | date_to_xmlschema -}}">{{- post.date | date: "%B %d, %Y" -}}</time>
-                </div>
-            </div>
-        {%- endfor -%}
-    </div>
-{%- endfor -%}
+  {% if tags_list.first[0] == null %}
+    {% for tag in tags_list %}
+      <a href="/tags#{{ tag }}-ref" class='list-group-item'>
+        {{ tag }} <span class='badge'>{{ site.tags[tag].size }}</span>
+      </a>
+    {% endfor %}
+  {% else %}
+    {% for tag in tags_list %}
+      <a href="/tags#{{ tag[0] }}-ref" class='list-group-item'>
+        {{ tag[0] }} <span class='badge'>{{ tag[1].size }}</span>
+      </a>
+    {% endfor %}
+  {% endif %}
+
+  {% assign tags_list = nil %}
 </div>
+
+<hr>
+
+# Table of content
+Click on each post title to view it.
+
+{% for tag in site.tags %}
+  <h2 class='tag-header' id="{{ tag[0] }}-ref">{{ tag[0] }}</h2>
+  <ul>
+    {% assign pages_list = tag[1] %}
+
+    {% for node in pages_list %}
+      {% if node.title != null %}
+        {% if group == null or group == node.group %}
+          {% if page.url == node.url %}
+          <li class="active"><a href="{{node.url}}" class="active">{{node.title}}</a></li>
+          {% else %}
+          <li><a href="{{node.url}}">{{node.title}}</a></li>
+          {% endif %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
+    {% assign pages_list = nil %}
+    {% assign group = nil %}
+  </ul>
+{% endfor %}
