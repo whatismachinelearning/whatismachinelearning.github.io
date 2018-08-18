@@ -2,17 +2,10 @@
 layout: page title: Tìm kiếm 
 ---
 <!-- Html Elements for Search -->
-<div id="search-container" class="mx-auto">
-  <div class="input-group">
-    <div class="input-group-prepend">
-      <div class="input-group-text">
-        <i class="fas fa-bolt"></i>
-      </div>
+<div id="search-container">
+    <input type="text" id="search-input" class="form-control" placeholder="Tìm kiếm tức thời...">
+    <ul id="results-container"></ul>
     </div>
-    <input type="text" id="search-input" placeholder="Tìm kiếm" class="form-control">
-  </div>
-  <ul id="results-container"></ul>
-</div>
 
 <!-- Script pointing to search-script.js -->
 <script src="/js/search-script.js" type="text/javascript"></script>
