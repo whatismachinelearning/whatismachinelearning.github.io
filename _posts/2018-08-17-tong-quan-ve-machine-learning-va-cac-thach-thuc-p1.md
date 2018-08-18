@@ -1,9 +1,13 @@
 ---
 layout: post
 title: Tổng quan về Machine Learning và các thách thức (Phần 1)
-subtitle: Machine Learning là cái quái gì nhỉ?
-categories: [Tổng quan, basic]
-tags: [machine learning]
+subtitle: Machine Learning là cái quái gì th nhỉ?
+categories:
+  - Tổng quan
+  - basic
+tags:
+  - machine learning
+published: true
 ---
 
 ## Machine Learning là cái quái gì thế nhỉ?
