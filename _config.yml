@@ -23,11 +23,11 @@ description: Thế giới Machine Learning của những người vui tính
 
 # List of links in the navigation bar
 navbar-links:
-  Về nhóm tác giả: "aboutme"
   Tra cứu:
     - Danh mục: "categories"
     - Tags: "tags"
     - Chính sách: "policy"
+  Về nhóm tác giả: "aboutme"
   Facebook tác giả: "https://www.facebook.com/levulinhbk"
 
 # Image to show in the navigation bar - image must be a square (width = height)
