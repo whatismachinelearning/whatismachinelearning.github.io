@@ -1,15 +1,15 @@
----
-layout: page
-title: Tìm kiếm
----
+--- layout: page title: Tìm kiếm ---
 <!-- Html Elements for Search -->
-<div id="search-container" class="mx-auto input-group">
-  <div class="input-group-prepend">
-    <div class="input-group-text"><i class="fas fa-bolt"></i></div>
+<div id="search-container" class="mx-auto">
+  <div class="input-group">
+    <div class="input-group-prepend">
+      <div class="input-group-text">
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <input type="text" id="search-input" placeholder="Tìm kiếm" class="form-control">
   </div>
-  <input type="text" id="search-input" placeholder="Tìm kiếm" class="form-control">
-</div>
-<ul id="results-container"></ul>
+  <ul id="results-container"></ul>
 </div>
 
 <!-- Script pointing to search-script.js -->
@@ -17,9 +17,9 @@ title: Tìm kiếm
 
 <!-- Configuration -->
 <script>
-SimpleJekyllSearch({
-  searchInput: document.getElementById('search-input'),
-  resultsContainer: document.getElementById('results-container'),
-  json: '/search.json'
-})
+  SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '/search.json'
+  })
 </script>
