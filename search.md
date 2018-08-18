@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Search"
-subtitle: Feeling lost? Look for things in my blog.
+title: Tìm kiếm
+subtitle: Không biết nên đi đâu về đâu? Tìm kiếm để thấy chân lý.
 ---
 
 <div id="search-box">
