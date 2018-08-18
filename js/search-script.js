@@ -132,12 +132,12 @@
         resultsContainer: null,
         json: [],
         success: Function.prototype,
-        searchResultTemplate: '<div><a href="{url}"><h3>&#x3E;&#x3E;&#x20;{title}</h3></a><span>{date}</span></div>',
+        searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
         templateMiddleware: Function.prototype,
         sortMiddleware: function () {
           return 0
         },
-        noResultsText: "Không thấy bài viết nào",
+        noResultsText: "Không tìm thấy gì cả :'(",
         limit: 10,
         fuzzy: !1,
         exclude: []
