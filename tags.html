@@ -4,9 +4,7 @@ title: Tags
 subtitle: Duyệt blog bằng tags.
 ---
 
-# Tags
-
-Click vào tag để xem các bài viết liên quan.
+# Click vào tag để xem các bài viết liên quan.
 
 <div class='list-group'>
   {% assign tags_list = site.tags %}
@@ -30,9 +28,7 @@ Click vào tag để xem các bài viết liên quan.
 
 <hr>
 
-# Mục lục
-
-Click vào tiêu đề bài viết để đọc.
+# Click vào tiêu đề bài viết để đọc.
 
 {% for tag in site.tags %}
   <h2 class='tag-header' id="{{ tag[0] }}-ref">{{ tag[0] }}</h2>
