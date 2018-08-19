@@ -248,8 +248,6 @@ prose:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-  
-gems:
   - jekyll-timeago
 
 # Beautiful Jekyll / Dean Attali
