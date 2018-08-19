@@ -7,7 +7,6 @@ categories:
   - basic
 tags:
   - machine learning
-bigimg: /img/tong-quan/machine-learning-image.png
 published: true
 ---
 Machine Learning (ML) đã xuất hiện cách đây hàng thập kỉ từ lúc có nhận diện kí tự quang học (Optical Character Recognition - OCR) và nhiều ứng dụng khác. Nhưng mới đây TV và báo đài mới nói nhiều về nó và thằng em của nó là Deep Learning nên người ta tưởng đây là lĩnh vực mới  chứ thực ra nó chỉ đang bùng nổ thôi.
@@ -17,8 +16,8 @@ Machine Learning (ML) đã xuất hiện cách đây hàng thập kỉ từ lúc
 AI - *Artificial Intelligence* hay *Trí tuệ nhân tạo* đang là cụm từ được nhắc tới rất nhiều trên mạng xã hội cũng như các phương tiện thông tin đại chúng. Rõ ràng có rất nhiều thứ mà "AI" đã và đang làm được khiến con người phải kinh ngạc và sức mạnh của nó là khỏi bàn cãi. Tuy nhiên trên thực tế trên thế giới chưa có AI theo đúng cái nghĩa người ta đang kì vọng - một cỗ máy có trí thông minh thực thụ.
 
 Để nói rõ hơn thì AI được chia thành 2 loại:
-  - Strong AI hay True AI: Một cỗ máy *"thông minh"* có kĩ năng, sự thông minh và khéo léo **ít nhất** là như con người.[^2]
-  - Weak AI hay Narrow AI: Một cỗ máy *"thông minh"* có khả năng giải quyết một công việc cụ thể .[^3]
+  - Strong AI hay True AI: Một cỗ máy *"thông minh"* có kĩ năng, sự thông minh và khéo léo **ít nhất** là như con người.[^1]
+  - Weak AI hay Narrow AI: Một cỗ máy *"thông minh"* có khả năng giải quyết một công việc cụ thể .[^2]
 
 Thực sự mình cũng không muốn viết ra từ "thông minh" vì mấu chốt của AI chính là ở việc định nghĩa từ "thông minh" này. Thế nào là thông minh, và làm thế nào để dạy được máy điều đó, có lẽ chúng ta vẫn còn rất nhiều điều phải làm trước khi có thể làm ra được một strong AI thực thụ. Phần lớn (nếu không muốn nói là tất cả) những ứng dụng mà chúng ta được biết là sản phẩm của một Weak AI (Siri hay Google Assistant chính là các ví dụ điển hình). 
 
@@ -26,7 +25,9 @@ Trong Blog này chúng mình sẽ giới hạn ở Machine Learning và Deep Lea
 
 ## Một số định nghĩa cho Machine Learning
 
-![Nguồn: http://www.zarantech.com/blog/an-introduction-to-machine-learning-why-it-matters/](/img/tong-quan/machine-learning-image.png)
+{% include image.html url="/img/tong-quan/machine-learning-image.png" description="Nguồn: http://www.zarantech.com/blog/an-introduction-to-machine-learning-why-it-matters/" %}
+
+<!-- ![Nguồn: http://www.zarantech.com/blog/an-introduction-to-machine-learning-why-it-matters/](/img/tong-quan/machine-learning-image.png) -->
 
 Machine Learning (Học Máy) là ngành khoa học (và nghệ thuật) về lập trình cho máy tính để chúng có thể học từ dữ liệu.
 Một số định nghĩa khác:
@@ -36,7 +37,7 @@ Một số định nghĩa khác:
 
 > “Một chương trình máy tính được gọi là học từ kinh nghiệm E với với nhiệm vụ T và một vài thước đo hiệu suất P, nếu hiệu suất của nó trên T khi được đo bởi P được cải thiện dần theo E.” – **Tom Mitchell, 1997.**
 
-Mình xin trích một ví dụ trong sách **"Hands-On Machine Learning with Scikit-Learn and TensorFlow[^1]"**:
+Mình xin trích một ví dụ trong sách **“Hands-On Machine Learning with Scikit-Learn and TensorFlow[^3]”**:
 
 Ví dụ bạn có một chương trình ML giúp lọc thư rác từ việc học cách đánh dấu các thư rác mẫu và các thư bình thường mẫu. Tập hợp các "mẫu" mà hệ thóng sử dụng để học được gọi là *tập đào tạo* (training set) và mỗi một mẫu được gọi là *điểm dữ liệu* (training instace hoặc sample).
 
@@ -73,5 +74,5 @@ Vài gạch đầu dòng là chưa đủ, với sức mạnh của mình Machine
 ### Happy suffing!
 
 [^1]: Hands-On Machine Learning with Scikit-Learn and TensorFlow by Aurélien Géron (O’Reilly). Copyright 2017 Aurélien Géron, 978-1-491-96229-9.
-[^2]: https://en.wikipedia.org/wiki/Strong_AI.
-[^3]: https://en.wikipedia.org/wiki/Weak_AI.
+[^2]: https://en.wikipedia.org/wiki/Strong_AI
+[^3]: https://en.wikipedia.org/wiki/Weak_AI
