@@ -142,6 +142,18 @@ excerpt_length: 50
 # and RSS feed title
 title-separator: "-"
 
+# --- Jekyll-timeago settings --- #
+jekyll_timeago:
+  depth: 2
+  translation_path: '/_data/vi.yaml'
+  default_locale: 'vi'
+  fallbacks: true
+  available_locales:
+    - 'en'
+    - 'vi'
+    - 'es'
+    - 'fr'
+
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
@@ -239,6 +251,7 @@ prose:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-timeago
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
