@@ -73,6 +73,6 @@ Vài gạch đầu dòng là chưa đủ, với sức mạnh của mình Machine
 
 ### Happy suffing!
 
-[^1]: Hands-On Machine Learning with Scikit-Learn and TensorFlow by Aurélien Géron (O’Reilly). Copyright 2017 Aurélien Géron, 978-1-491-96229-9.
-[^2]: https://en.wikipedia.org/wiki/Strong_AI
-[^3]: https://en.wikipedia.org/wiki/Weak_AI
+[^3]: Hands-On Machine Learning with Scikit-Learn and TensorFlow by Aurélien Géron (O’Reilly). Copyright 2017 Aurélien Géron, 978-1-491-96229-9.
+[^1]: https://en.wikipedia.org/wiki/Strong_AI
+[^2]: https://en.wikipedia.org/wiki/Weak_AI
