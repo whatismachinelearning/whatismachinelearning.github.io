@@ -1,0 +1,22 @@
+vi:
+  today: 'hôm nay'
+  yesterday: 'hôm qua'
+  tomorrow: 'ngày mai'
+  last_word_connector: 'và'
+  words_connector: ', '
+  suffix: 'trước'
+  prefix: ''
+  suffix_future: ''
+  prefix_future: 'trong'
+  years:
+    one: '1 năm'
+    many: "%{count} năm"
+  months:
+    one: '1 tháng'
+    many: '%{count} tháng'
+  weeks:
+    one: '1 tuần'
+    many: '%{count} tuần'
+  days:
+    one: '1 ngày'
+    many: '%{count} ngày'
