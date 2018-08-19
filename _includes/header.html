@@ -61,9 +61,8 @@
 		  {% endif %}
 		  
       {% if include.type == "post" %}
-      {% assign second_now = "now" | date: "%s" %}
       {% assign second_then = post.date | date: "%s" %}
-		  <span class="post-meta">{{ second_now | minus: second_then }} giây trước</span>
+		  <span class="post-meta">{% include friendly_time.html second_then={{second_then}} %}</span>
 		  {% endif %}
         </div>
       </div>
