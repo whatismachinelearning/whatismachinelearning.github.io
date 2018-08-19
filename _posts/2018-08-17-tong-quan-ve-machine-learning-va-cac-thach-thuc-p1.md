@@ -9,9 +9,6 @@ tags:
   - machine learning
 published: true
 ---
-
-## Machine Learning là cái quái gì thế nhỉ?
-
 Machine Learning (ML) đã xuất hiện cách đây hàng thập kỉ từ lúc có nhận diện kí tự quang học (Optical Character Recognition - OCR) và nhiều ứng dụng khác. Nhưng mới đây TV và báo đài mới nói nhiều về nó và thằng con của nó là Deep Learning nên người ta tưởng đây là lĩnh vực mới  chứ thực ra nó chỉ đang bùng nổ thôi.
 
 ## Một số định nghĩa cho Machine Learning
