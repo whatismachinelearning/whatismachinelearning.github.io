@@ -61,7 +61,7 @@
 		  {% endif %}
 		  
 		  {% if include.type == "post" %}
-		  <span class="post-meta">Đăng vào {{ page.date | date: "%B %-d, %Y" }}</span>
+		  <span class="post-meta">{{ page.date | timeago }}</span>
 		  {% endif %}
         </div>
       </div>
