@@ -25,7 +25,7 @@ Trong Blog này chúng mình sẽ giới hạn ở Machine Learning và Deep Lea
 
 ## Một số định nghĩa cho Machine Learning
 
-{% include image.html url="/img/tong-quan/machine-learning-image.png" description="Nguồn: http://www.zarantech.com/blog/an-introduction-to-machine-learning-why-it-matters/" %}
+{% include image.html url="/img/tong-quan/machine-learning-image.png" description="Nguồn: spectrumeffect.com" %}
 
 <!-- ![Nguồn: http://www.zarantech.com/blog/an-introduction-to-machine-learning-why-it-matters/](/img/tong-quan/machine-learning-image.png) -->
 
