@@ -26,7 +26,7 @@
               <span style="background-color: #333333">{{ page.subtitle }}</span>
             </h2>
             {% endif %} {% endif %} {% if include.type == "post" %}
-            <span style="background-color: #333333" class="post-meta">Đăng vào {{ page.date | date: "%B %-d, %Y" }}</span>
+            <span style="background-color: #333333" class="post-meta"><i class="far fa-calendar-alt"></i> {{post.date | date: "%d/%m/%Y"}}</span>
             {% endif %}
           </div>
         </div>
