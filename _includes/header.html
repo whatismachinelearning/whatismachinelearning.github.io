@@ -61,8 +61,9 @@
 		  {% endif %}
 		  
       {% if include.type == "post" %}
-      {% assign seconds_since = "now" | date: "%s" | minus: post.date | date: "%s" %}
-		  <span class="post-meta">{{seconds_since}} giây trước</span>
+      {% assign second_now = "now" | date: "%s" %}
+      {% assign second_then = post.date | date: "%s" %}
+		  <span class="post-meta">{{ second_now | minus: second_then }} giây trước</span>
 		  {% endif %}
         </div>
       </div>

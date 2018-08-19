@@ -19,9 +19,10 @@ published: true
 	  {% endif %}
     </a>
 
-    {% assign seconds_since = "now" | date: "%s" | minus: post.date | date: "%s" %}
+    {% assign second_now = "now" | date: "%s" %}
+    {% assign second_then = post.date | date: "%s" %}
     <p class="post-meta">
-      {{seconds_since}} giây trước
+      {{ second_now | minus: second_then }} giây trước
     </p>
 
     <div class="post-entry-container">
