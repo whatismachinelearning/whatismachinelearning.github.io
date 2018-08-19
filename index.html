@@ -20,7 +20,7 @@ published: true
     </a>
 
     <p class="post-meta">
-      {{ post.date | timeago }}
+      {{ "now" | date: "%s" | minus: {{post.date | date: "%s"}} | date: "%S" }}
     </p>
 
     <div class="post-entry-container">
