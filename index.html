@@ -20,7 +20,7 @@ published: true
     </a>
 
     <p class="post-meta">
-      {{ "now" | date: "%s" | minus: {{post.date | date: "%s"}} | date: "%S" }}
+      {{ "now" | date: "%s" | minus: {{post.date | date: "%s"}} | divided_by: 86400 }} ngày trước
     </p>
 
     <div class="post-entry-container">
