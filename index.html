@@ -1,28 +1,26 @@
----
-layout: page
-title: TuHoc.ML
-subtitle: Thế giới Machine Learning của những người vui tính
-use-site-title: false
-published: true
+--- 
+layout: page 
+title: TuHoc.ML 
+subtitle: Thế giới Machine Learning của những người vui tính 
+use-site-title: false 
+published: true 
 ---
 
 <div class="posts-list">
   {% for post in paginator.posts %}
   <article class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
-	  <h2 class="post-title">{{ post.title }}</h2>
+      <h2 class="post-title">{{ post.title }}</h2>
 
-	  {% if post.subtitle %}
-	  <h3 class="post-subtitle">
-	    {{ post.subtitle }}
-	  </h3>
-	  {% endif %}
+      {% if post.subtitle %}
+      <h3 class="post-subtitle">
+        {{ post.subtitle }}
+      </h3>
+      {% endif %}
     </a>
 
-    {% assign second_now = "now" | date: "%s" %}
-    {% assign second_then = post.date | date: "%s" %}
     <p class="post-meta">
-      {{ second_now | minus: second_then }} giây trước
+      <i class="far fa-calendar-alt"></i> {{post.date | date: "%d/%m/%Y"}}
     </p>
 
     <div class="post-entry-container">
@@ -34,28 +32,22 @@ published: true
       </div>
       {% endif %}
       <div class="post-entry">
-        {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }}
-        {% assign excerpt_word_count = post.excerpt | number_of_words %}
-        {% if post.content != post.excerpt or excerpt_word_count > site.excerpt_length %}
-          <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Đọc&nbsp;Tiếp]</a>
+        {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }} {% assign excerpt_word_count = post.excerpt
+        | number_of_words %} {% if post.content != post.excerpt or excerpt_word_count > site.excerpt_length %}
+        <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Đọc&nbsp;Tiếp]</a>
         {% endif %}
       </div>
     </div>
 
     {% if post.tags.size > 0 %}
     <div class="blog-tags">
-      Tags:
-      {% if site.link-tags %}
-      {% for tag in post.tags %}
+      Tags: {% if site.link-tags %} {% for tag in post.tags %}
       <a href="{{ site.baseurl }}/tags#{{- tag -}}">{{- tag -}}</a>
-      {% endfor %}
-      {% else %}
-        {{ post.tags | join: ", " }}
-      {% endif %}
+      {% endfor %} {% else %} {{ post.tags | join: ", " }} {% endif %}
     </div>
     {% endif %}
 
-   </article>
+  </article>
   {% endfor %}
 </div>
 
@@ -65,8 +57,7 @@ published: true
   <li class="previous">
     <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Mới hơn</a>
   </li>
-  {% endif %}
-  {% if paginator.next_page %}
+  {% endif %} {% if paginator.next_page %}
   <li class="next">
     <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Cũ hơn &rarr;</a>
   </li>
