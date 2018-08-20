@@ -1,15 +1,27 @@
-<div class="card border border-dark">
-  <div class="media">
-      <img class="mr-3" src="{{ author.avatar }}" alt="{{author.display_name}}">
-      <div class="media-body">
-        <h4 class="mt-0">{{ author.display_name }}</h4>
-        {{ author.about }}
-        <div> 
-            {% if author.facebook %}<a href="{{ author.facebook }}" ><i class="fa fa-facebook-official" aria-hidden="true"></i></a>{% endif %}
-            {% if author.twitter %}<a href="{{ author.twitter }}" ><i class="fa fa-twitter-square" aria-hidden="true"></i></a>{% endif %}
-            {% if author.github %}<a href="{{ author.github }}" ><i class="fa fa-github-square" aria-hidden="true"></i></a>{% endif %}
-            {% if author.email %}<a href="{{ author.email }}" ><i class="fa fa-envelope" aria-hidden="true"></i></a>{% endif %}
-      </div>
-      </div>
+<div class="media author-box">
+
+  <div class="media-figure">
+    <img class="mr-3" src="{{ author.avatar }}" alt="{{author.display_name}}">
+  </div>
+
+  <div class="media-body">
+    <h2>{{ author.display_name }}</h2>
+    <p>{{ author.about }}</p>
+    <div class="author-icons">
+      {% if author.facebook %}
+      <a href="{{ author.facebook }}">
+        <i class="fa fa-facebook-official" aria-hidden="true"></i>
+      </a>{% endif %} {% if author.twitter %}
+      <a href="{{ author.twitter }}">
+        <i class="fa fa-twitter-square" aria-hidden="true"></i>
+      </a>{% endif %} {% if author.github %}
+      <a href="{{ author.github }}">
+        <i class="fa fa-github-square" aria-hidden="true"></i>
+      </a>{% endif %} {% if author.email %}
+      <a href="{{ author.email }}">
+        <i class="fa fa-envelope" aria-hidden="true"></i>
+      </a>{% endif %}
     </div>
+  </div>
+
 </div>
