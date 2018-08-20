@@ -1,5 +1,4 @@
 <!-- TODO this file has become a mess, refactor it -->
-
 {% if page.bigimg or page.title %} {% if page.bigimg %}
 <div id="header-big-imgs" data-num-img={% if page.bigimg.first %}{{ page.bigimg.size }}{% else %}1{% endif %} {% for bigimg
   in page.bigimg %} {% assign imgnum=f orloop.index %} {% for imginfo in bigimg %} {% if imginfo[0] %} data-img-src-{{ imgnum
@@ -45,6 +44,9 @@
             {% else %}
             <h2 class="{{ include.type }}-subheading">{{ page.subtitle }}</h2>
             {% endif %} {% endif %} {% if include.type == "post" %}
+            <script>
+              console.log(moment().format());
+            </script>
             <span class="post-meta">Posted on {{ page.date | date: "%B %-d, %Y" }}&nbsp;&bull;&nbsp;
               <svg id="i-clock" viewBox="0 0 32 32" width="20" height="20" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round"
                 stroke-width="2">
