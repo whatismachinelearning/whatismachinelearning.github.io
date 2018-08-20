@@ -38,6 +38,18 @@ navbar-links:
 # then specify the following parameter
 title-img: /img/avatar-new.png
 
+# --- Authors information --- #
+author:
+  levulinh:
+    display_name: Linh Le Vu
+    about: Linh là sinh viên Viện Điện - Đại Học Bách Khoa Hà Nội. Nhà mặt phố, bố có xe 4 bánh mỗi tội là xe tải. Linh đam mê với khoa học máy tính nhưng run rủi sao học viện Điện. Chẳng sao, đam mê vẫn là đam mê.
+    email: mailto:levulinhbk@gmail.com
+    web: tuhoc.ml
+    facebook: fb.com/levulinhbk
+    github: github.com/levulinh
+    avatar: /img/avatar-linh.jpg
+
+
 # --- Background colour/image options --- #
 
 # Personalize the colors in your website. Colour values can be any valid CSS colour
