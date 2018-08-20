@@ -20,7 +20,7 @@ AI - *Artificial Intelligence* hay *Trí tuệ nhân tạo* đang là cụm từ
   - Strong AI hay True AI: Một cỗ máy *"thông minh"* có kĩ năng, sự thông minh và khéo léo **ít nhất** là như con người.[^1]
   - Weak AI hay Narrow AI: Một cỗ máy *"thông minh"* có khả năng giải quyết một công việc cụ thể .[^2]
 
-Thực sự mình cũng không muốn viết ra từ "thông minh" vì mấu chốt của AI chính là ở việc định nghĩa từ "thông minh" này. Thế nào là thông minh, và làm thế nào để dạy được máy điều đó, có lẽ chúng ta vẫn còn rất nhiều điều phải làm trước khi có thể làm ra được một strong AI thực thụ. Phần lớn (nếu không muốn nói là tất cả) những ứng dụng mà chúng ta được biết là sản phẩm của một Weak AI (Siri hay Google Assistant chính là các ví dụ điển hình). 
+Mấu chốt của AI chính là ở việc định nghĩa từ "thông minh" này. Thế nào là thông minh, và làm thế nào để dạy được máy điều đó, có lẽ chúng ta vẫn còn rất nhiều điều phải làm trước khi có thể làm ra được một strong AI thực thụ. Phần lớn (nếu không muốn nói là tất cả) những ứng dụng mà chúng ta được biết là sản phẩm của một Weak AI (Siri hay Google Assistant chính là các ví dụ điển hình). 
 
 Trong Blog này chúng mình sẽ giới hạn ở Machine Learning và Deep Learning thôi vì kiến thức cũng có hạn. Nhưng trước khi nhảy vào deep learning thì phải ghé qua Machine Learning cái đã nhỉ. Chẳng ai không biết bơi mà lại biết lặn (xong phải nổi lên được nha) đúng không :D
 
