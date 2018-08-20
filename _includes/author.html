@@ -5,8 +5,8 @@
   </div>
 
   <div class="media-body">
-    <h2>{{ author.display_name }}</h2>
-    <p>{{ author.about }}</p>
+    <strong>{{ author.display_name }}</strong>
+    <p style="margin: 0 0;">{{ author.about }}</p>
     <div class="author-icons">
       {% if author.facebook %}
       <a href="{{ author.facebook }}">
@@ -20,6 +20,9 @@
       </a>{% endif %} {% if author.email %}
       <a href="{{ author.email }}">
         <i class="fa fa-envelope" aria-hidden="true"></i>
+      </a>{% endif %} {% if author.web %}
+      <a href="{{ author.web }}">
+        <i class="fa fa-link" aria-hidden="true"></i>
       </a>{% endif %}
     </div>
   </div>

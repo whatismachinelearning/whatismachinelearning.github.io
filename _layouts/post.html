@@ -36,8 +36,9 @@ layout: base
       </article>
 
       {% assign author = site.authors[page.author] %}
+      {% if author %}
       {% include  author.html %}
-      
+      {% endif %}
       {% if page.tags.size > 0 %}
         <div class="blog-tags">
           Tags:
