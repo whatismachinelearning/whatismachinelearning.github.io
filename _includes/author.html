@@ -1,10 +1,11 @@
+<link href="/css/bootstrap.min.css" rel="stylesheet">
 <div class="card border border-secondary rounded">
   <div class="media">
-      <h4 class="mt-0">{{ author.display_name }}</h4>
       <img class="mr-3" src="{{ author.avatar }}" alt="{{author.display_name}}" style="width: 64px; height: 64px; float: left;">
-      <div class="media-body" style="float: right">
+      <div class="media-body">
+        <h4 class="mt-0">{{ author.display_name }}</h4>
         {{ author.about }}
-        <div id="social-author"> 
+        <div> 
             {% if author.facebook %}<a href="{{ author.facebook }}" ><i class="fa fa-facebook-official" aria-hidden="true"></i></a>{% endif %}
             {% if author.twitter %}<a href="{{ author.twitter }}" ><i class="fa fa-twitter-square" aria-hidden="true"></i></a>{% endif %}
             {% if author.github %}<a href="{{ author.github }}" ><i class="fa fa-github-square" aria-hidden="true"></i></a>{% endif %}
@@ -13,4 +14,3 @@
       </div>
     </div>
   </div>
-</div>
