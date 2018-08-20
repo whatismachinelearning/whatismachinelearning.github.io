@@ -46,10 +46,10 @@
             {% endif %} {% endif %} {% if include.type == "post" %}
             {% capture timeago %}
             <script>
-              document.write(moment("2018-08-17 00:00:00 +0700").fromNow());
+              document.write(moment("{{ page.date }}").fromNow());
             </script>
             {% endcapture %}
-            <span class="post-meta">{{ timeago }} Posted on {{ page.date | date: "%B %-d, %Y" }}&nbsp;&bull;&nbsp;
+            <span class="post-meta">{{ timeago }}&nbsp;&bull;&nbsp;
               <svg id="i-clock" viewBox="0 0 32 32" width="20" height="20" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round"
                 stroke-width="2">
                 <circle cx="16" cy="16" r="14" />
