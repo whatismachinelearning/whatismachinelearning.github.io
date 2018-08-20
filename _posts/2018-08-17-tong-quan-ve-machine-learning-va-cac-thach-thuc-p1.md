@@ -9,6 +9,7 @@ tags:
   - machine learning
 author: levulinh
 published: true
+image: /media/tong-quan/machine-learning-image.png
 ---
 Machine Learning (ML) đã xuất hiện cách đây hàng thập kỉ từ lúc có nhận diện kí tự quang học (Optical Character Recognition - OCR) và nhiều ứng dụng khác. Nhưng mới đây TV và báo đài mới nói nhiều về nó và thằng em của nó là Deep Learning nên người ta tưởng đây là lĩnh vực mới  chứ thực ra nó chỉ đang bùng nổ thôi.
 
@@ -27,7 +28,7 @@ Trong Blog này chúng mình sẽ giới hạn ở Machine Learning và Deep Lea
 ## Một số định nghĩa cho Machine Learning
 
 ![Nguồn: http://www.zarantech.com/blog/an-introduction-to-machine-learning-why-it-matters/](/media/tong-quan/machine-learning-image.png)
-*Nguồn: spectrumeffect.com*
+*Nguồn: http://www.spectrumeffect.com/*
 
 Machine Learning (Học Máy) là ngành khoa học (và nghệ thuật) về lập trình cho máy tính để chúng có thể học từ dữ liệu.
 Một số định nghĩa khác:
