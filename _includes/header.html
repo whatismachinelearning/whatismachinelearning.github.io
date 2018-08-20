@@ -46,7 +46,7 @@
             {% endif %} {% endif %} {% if include.type == "post" %}
             {% capture timeago %}
             <script>
-              document.write("{{ page.date }}");
+              document.write(moment("2018-08-17 00:00:00 +0700").fromNow());
             </script>
             {% endcapture %}
             <span class="post-meta">{{ timeago }} Posted on {{ page.date | date: "%B %-d, %Y" }}&nbsp;&bull;&nbsp;
