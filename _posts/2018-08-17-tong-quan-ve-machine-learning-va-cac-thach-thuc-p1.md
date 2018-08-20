@@ -25,7 +25,7 @@ Trong Blog này chúng mình sẽ giới hạn ở Machine Learning và Deep Lea
 
 ## Một số định nghĩa cho Machine Learning
 
-![Nguồn: http://www.zarantech.com/blog/an-introduction-to-machine-learning-why-it-matters/](/img/tong-quan/machine-learning-image.png)
+![Nguồn: http://www.zarantech.com/blog/an-introduction-to-machine-learning-why-it-matters/](/media/tong-quan/machine-learning-image.png)
 *Nguồn: spectrumeffect.com*
 
 Machine Learning (Học Máy) là ngành khoa học (và nghệ thuật) về lập trình cho máy tính để chúng có thể học từ dữ liệu.

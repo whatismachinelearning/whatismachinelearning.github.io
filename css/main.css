@@ -784,3 +784,7 @@ td.gutter {
 }
 
 img + em { display: block; text-align: center;}
+
+svg#i-clock {
+  vertical-align: middle;
+}
