@@ -22,7 +22,8 @@ published: true
       document.write(moment("{{ post.date }}").fromNow());
     </script>
     {% endcapture %}
-    <p class="post-meta" title="{{ post.date }}">
+    {% assign realdate = post.date | date: "%B %-d, %Y" %}
+    <p class="post-meta" title="{{ realdate }}">
       {{ timeago }}&nbsp;&bull;&nbsp;
       <svg id="i-clock" viewBox="0 0 32 32" width="20" height="20" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round"
         stroke-width="2">
