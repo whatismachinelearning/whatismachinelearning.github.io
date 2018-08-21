@@ -37,20 +37,6 @@ common-js:
     {% include footer-scripts.html %}
   <!-- Go to www.addthis.com/dashboard to customize your tools -->
   <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b77ff6cf28c7ef5"></script>
-  <!-- Default Statcounter code for TuHoc.Ml  -->
-  <script type="text/javascript">
-    var sc_project=11800343; 
-    var sc_invisible=0; 
-    var sc_security="9af30bb7"; 
-    var scJsHost = (("https:" == document.location.protocol) ? "https://secure." :
-    "http://www.");
-    document.write("<sc"+"ript type='text/javascript' src='" + scJsHost+
-    "statcounter.com/counter/counter.js'></"+"script>");
-    </script>
-    <noscript><div class="statcounter"><a title="Web Analytics"
-    href="http://statcounter.com/" target="_blank"><img class="statcounter"
-    src="//c.statcounter.com/11800343/0/9af30bb7/0/" alt="Web
-    Analytics"></a></div></noscript>
-    <!-- End of Statcounter Code -->
-  </body>
+  {% include lazyload.html %}  
+</body>
 </html>
