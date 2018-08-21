@@ -51,7 +51,7 @@ layout: base
         </div>
       {% endif %}
 
-      {% include fb-like-post.html href=page.url %}
+      {% include fb-like-post.html href= site.url | append: page.url %}
 
       {% if page.social-share %}
         {% include social-share.html %}
