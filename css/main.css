@@ -812,6 +812,7 @@ svg#i-clock {
   background-image: url(../img/loadinggif.gif);
   background-position: center;
   background-repeat: no-repeat;
+  background-size: auto;
 }
 .fb-comments[fb-xfbml-state="rendered"] {
   background-image: none;
