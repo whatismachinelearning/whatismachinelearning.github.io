@@ -17,11 +17,12 @@ published: true
       </h3>
       {% endif %}
     </a>
+    {% assign realdate = page.date | date: "%B %-d, %Y" %}
     {% capture timeago %}
-    <script>
-      document.write(moment("{{ post.date }}").fromNow());
-    </script>
-    {% endcapture %} {% assign realdate = post.date | date: "%B %-d, %Y" %}
+            <script>
+              document.write(moment("{{ realdate }}").fromNow());
+            </script>
+    {% endcapture %}
     <p class="post-meta" title="{{ realdate }}">
       <i class="fa fa-calendar-o" aria-hidden="true"></i>
       {{ timeago }}&nbsp;&bull;&nbsp;
