@@ -820,11 +820,11 @@ svg#i-clock {
   height: auto;
 }
 
-/*
+/* 
  * This code is courtesy Ben Balter, modified by Parker Moore for jekyllrb.com
  * http://ben.balter.com/2014/03/13/pages-anchor-links/
  */
- .header-link {
+ /* .header-link {
   position: relative;
   left: 0.5em;
   opacity: 0;
@@ -840,4 +840,4 @@ h4:hover .header-link,
 h5:hover .header-link,
 h6:hover .header-link {
   opacity: 1;
-}
+} */
