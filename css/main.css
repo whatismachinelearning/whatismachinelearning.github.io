@@ -813,7 +813,9 @@ svg#i-clock {
   background-position: center;
   background-repeat: no-repeat;
   background-size: auto;
+  height: 64px;
 }
 .fb-comments[fb-xfbml-state="rendered"] {
   background-image: none;
+  height: auto;
 }
