@@ -43,14 +43,17 @@
             <span class="{{ include.type }}-subheading">{{ page.subtitle }}</span>
             {% else %}
             <h2 class="{{ include.type }}-subheading">{{ page.subtitle }}</h2>
-            {% endif %} {% endif %} {% if include.type == "post" %}
-                      {% assign realdate = page.date | date: "%B %-d, %Y" %}
-            {% capture timeago %}
+            {% endif %} 
+            {% endif %} 
+            {% if include.type == "post" %} 
+            {% assign realdate = page.date | date: "%B %-d, %Y" %}         
+            {% capture timeago %}
             <script>
-              document.write(moment("{{ realdate }}").fromNow());
+              document.write(moment("{{ realdate }}").fromNow());
             </script>
             {% endcapture %}
-            <span class="post-meta" title="{{ realdate }}" ><i class="fa fa-calendar-o" aria-hidden="true"></i>
+            <span class="post-meta" title="{{ realdate }}">
+              <i class="fa fa-calendar-o" aria-hidden="true"></i>
               {{ timeago }}&nbsp;&bull;&nbsp;
               <i class="fa fa-clock-o" aria-hidden="true"></i>
               {% assign words = content | number_of_words %} {% if words
