@@ -809,7 +809,7 @@ svg#i-clock {
 }
 
 .fb-comments {
-  background-image: url(../img/loadinggif.gif);
+  background-image: url(../img/loading.gif);
   background-position: center;
   background-repeat: no-repeat;
   background-size: auto;
