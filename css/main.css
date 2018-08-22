@@ -852,4 +852,5 @@ h6:hover .header-link {
 
 .top-load-bar .bar {
   background-color: #808080;
+  z-index: 999;
 }
