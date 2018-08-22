@@ -58,6 +58,9 @@ layout: base
         {% include social-share.html %}
       {% endif %}
 
+      {% assign series = site.serie.size %}
+      {{ series }}
+
       <ul class="pager blog-pager">
         {% if page.previous.url %}
         <li class="previous">
