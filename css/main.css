@@ -851,7 +851,7 @@ h6:hover .header-link {
 }
 
 .progress-bar {
-  background: linear-gradient(to right, rgb(37, 37, 37) var(--scroll), transparent 0);
+  background: linear-gradient(to right, #2196F3 var(--scroll), transparent 0);
   background-repeat: no-repeat;
   width: 100%;
   position: fixed;
