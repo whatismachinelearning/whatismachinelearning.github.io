@@ -871,6 +871,6 @@ h6:hover .header-link {
   height:100%;
 }
 .h_iframe {
-  height: 100%;
-  width:100%;
+  width:100% !important;
+  height: auto !important; 
 }
