@@ -104,7 +104,7 @@ layout: base
       scroll;
     
     document.addEventListener('scroll', function() {
-      scroll = (element[scrollTop]||body[scrollTop]) / (desireHeight - element.clientHeight) * 100;
+      scroll = (element[scrollTop]||body[scrollTop]) / (desireHeight) * 100;
       if (scroll > 100) scroll = 100;
       progress.style.setProperty('--scroll', scroll + '%');
     });
