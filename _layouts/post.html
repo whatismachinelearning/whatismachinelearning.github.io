@@ -60,29 +60,26 @@ layout: base
 
       {% if page.series %}
       {% assign count = '0' %}
-      {% assign idx = '0' %}
       {% for post in site.posts reversed %}
-          {% if post.series == page.series %}
-              {% capture count %}{{ count | plus: '1' }}{% endcapture %}
-              {% if post.url == page.url %}
-                  {% capture idx %}{{count}}{% endcapture %}
-              {% endif %}
-          {% endif %}
+        {% if post.series == page.series %}
+          {% capture count %}{{ count | plus: '1' }}{% endcapture %}
+        {% endif %}
       {% endfor %}
       {% endif %}
 
+      {% if count > 0 %}
       <div class="panel seriesNote">
         <p>
-        This article is <strong>Part {{ idx }}</strong> in a <strong>{{ count }}-Part</strong> Series.
+        Các bài viết cùng serie:
         </p>
         <ul>
         {% assign count = '0' %}
         {% for post in site.posts reversed %}
         {% if post.series == page.series %}
             {% capture count %}{{ count | plus: '1' }}{% endcapture %}
-            <li>Part {{ count }} - 
+            <li>Phần {{ count }} - 
             {% if page.url == post.url %}
-                This Article
+                Bài viết này
             {% else %}
                 <a href="{{post.url}}">{{post.title}}</a>
             {% endif %}
@@ -91,7 +88,7 @@ layout: base
         {% endfor %}
         </ul>
     </div>
-
+{% endif %}
       <ul class="pager blog-pager">
         {% if page.previous.url %}
         <li class="previous">
