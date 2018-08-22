@@ -248,7 +248,6 @@ prose:
           options:
             - name: "Lê Vũ Linh"
               value: "levulinh"
-          alterable: true
       - name: "published"
         field:
           element: "checkbox"
