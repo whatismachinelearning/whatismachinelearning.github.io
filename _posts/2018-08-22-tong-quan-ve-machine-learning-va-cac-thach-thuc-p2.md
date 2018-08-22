@@ -34,11 +34,10 @@ Mô hình được bài toán xây dựng lên được yêu cầu liên tục d
 Một số bài toán phổ biến của loại này có thể kể đến Regression (hồi quy) và Classification (phân loại).
 
 List một số thuật toán nổi tiếng:
-
-    - Linear Regression
-    - Logistic Regression
-    - Support Vector Machine
-    - PLA Neural Network
+- Linear Regression
+- Logistic Regression
+- Support Vector Machine
+- PLA Neural Network
 
 ### Unsupervised learning
 
