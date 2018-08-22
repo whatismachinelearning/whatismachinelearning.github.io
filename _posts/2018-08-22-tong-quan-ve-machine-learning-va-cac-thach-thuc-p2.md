@@ -8,7 +8,7 @@ tags:
   - machine learning
   - basic
 author: levulinh
-serie: tong-quan
+series: tong-quan
 published: true
 ---
 
