@@ -59,10 +59,10 @@ layout: base
       {% endif %}
 
       {% if page.series %}
-        {% assign count = 0 %}
+        {% assign count = '0' %}
         {% for post in site.posts reversed %}
           {% if post.series == page.series %}
-            {% capture count %}{{ count | plus: 1 }}{% endcapture %}
+            {% capture count %}{{ count | plus: '1' }}{% endcapture %}
           {% endif %}
         {% endfor %}
       <div class="panel seriesNote">
