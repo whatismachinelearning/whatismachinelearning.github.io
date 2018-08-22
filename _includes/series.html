@@ -12,9 +12,7 @@
 
 {% if count != '0' %}
 <div class="panel seriesNote">
-    <p>
-    Các bài viết cùng Series:
-    </p>
+    <p> <strong>Các bài viết cùng Series:</strong></p>
     <ul>
     {% assign count = '0' %}
     {% for post in site.posts reversed %}
