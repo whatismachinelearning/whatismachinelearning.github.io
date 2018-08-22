@@ -784,7 +784,7 @@ td.gutter {
   font-size: 16px;
 }
 
-img + em { display: block; text-align: center;}
+img + em { display: block; text-align: center; margin: auto;}
 
 svg#i-clock {
   vertical-align: middle;

@@ -59,9 +59,9 @@ Semi-supervised learing hay còn gọi là Học bán giám sát. Chỉ một l�
 
 Học tăng cường -  dữ liệu của loại này chính là ngữ cảnh, quyết định và sự đánh giá quyết định đó. Nói chung rất là hay cơ mà cũng rất khó vì trích xuất được dữ liệu của loại này không dễ.
 
-Ví dụ về học tăng cường có thể xem qua video thú vi sau:
+Ví dụ về học tăng cường có thể xem qua video thú vị sau:
 
-{{ include video.html url=https://www.youtube.com/watch?v=3bhP7zulFfY }}
+{% include video.html url=https://www.youtube.com/watch?v=3bhP7zulFfY %}
 
 ## Phân loại theo chức năng
 
