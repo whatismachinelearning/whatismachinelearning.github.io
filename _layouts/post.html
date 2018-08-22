@@ -80,6 +80,7 @@ layout: base
     </div>
   </div>
 </div>
+<div class="progress-bar"></div>
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b77ff6cf28c7ef5"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js"></script>
@@ -89,4 +90,18 @@ layout: base
     icon: '#'
   };
   anchors.add('.blog-post h2, .blog-post h3, .blog-post h4, .blog-post h5');
+</script>
+
+<script>
+    var element = document.documentElement,
+      body = document.body,
+      scrollTop = 'scrollTop',
+      scrollHeight = 'scrollHeight',
+      progress = document.querySelector('.progress-bar'),
+      scroll;
+    
+    document.addEventListener('scroll', function() {
+      scroll = (element[scrollTop]||body[scrollTop]) / ((element[scrollHeight]||body[scrollHeight]) - element.clientHeight) * 100;
+      progress.style.setProperty('--scroll', scroll + '%');
+    }); 
 </script>
