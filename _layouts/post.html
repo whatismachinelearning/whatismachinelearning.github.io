@@ -59,13 +59,13 @@ layout: base
       {% endif %}
 
       {% if page.series %}
-        {% assign count = '0' %}
+        {% assign count = 0 %}
         {% for post in site.posts reversed %}
           {% if post.series == page.series %}
-            {% capture count %}{{ count | plus: '1' }}{% endcapture %}
+            {% capture count %}{{ count | plus: 1 }}{% endcapture %}
           {% endif %}
         {% endfor %}
-
+      {% if count > 0 %}
       <div class="panel seriesNote">
         <p>
         Các bài viết cùng series:
@@ -86,6 +86,7 @@ layout: base
         {% endfor %}
         </ul>
       </div>
+      {% endif %}
       {% endif %}
       <ul class="pager blog-pager">
         {% if page.previous.url %}
