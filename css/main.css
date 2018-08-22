@@ -861,7 +861,7 @@ h6:hover .header-link {
   z-index: 1;
 }
 
-html, body {
+.blog-post {
   height:100%;
   width:100%;
   margin:0;
