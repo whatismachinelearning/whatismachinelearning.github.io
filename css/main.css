@@ -848,3 +848,7 @@ h6:hover .header-link {
   height: 60px; /* fixed header height*/
   margin: -60px 0 0; /* negative fixed header height */
 }
+
+.top-load-bar .bar {
+  background-color: #808080;
+}
