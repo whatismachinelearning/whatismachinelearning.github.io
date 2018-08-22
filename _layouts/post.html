@@ -65,7 +65,6 @@ layout: base
             {% capture count %}{{ count | plus: 1 }}{% endcapture %}
           {% endif %}
         {% endfor %}
-      {% if count > 0 %}
       <div class="panel seriesNote">
         <p>
         Các bài viết cùng series:
@@ -82,7 +81,6 @@ layout: base
                 <a href="{{post.url}}">{{post.title}}</a>
             {% endif %}
             </li>
-        {% endif %}
         {% endfor %}
         </ul>
       </div>
