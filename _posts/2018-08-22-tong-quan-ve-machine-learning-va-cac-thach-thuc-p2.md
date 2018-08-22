@@ -61,7 +61,7 @@ Học tăng cường -  dữ liệu của loại này chính là ngữ cảnh, q
 
 Ví dụ về học tăng cường có thể xem qua video thú vị sau:
 
-{% include video.html url=https://www.youtube.com/watch?v=3bhP7zulFfY %}
+{% include video.html id = 3bhP7zulFfY %}
 
 ## Phân loại theo chức năng
 
