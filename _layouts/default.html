@@ -1,16 +1,15 @@
 ---
 layout: base
 ---
-
-<div class="intro-header"></div>
-
-<div role="main" class="container">
-  {{ content }}
-</div>
-<script src="/path/to/nanobar.min.js"></script>
+<script src="/js/nanobar.min.js"></script>
 <script>
   var options = {
 	classname: 'top-load-bar'
 };
 var nanobar = new Nanobar( options );
 </script>
+<div class="intro-header"></div>
+
+<div role="main" class="container">
+  {{ content }}
+</div>
