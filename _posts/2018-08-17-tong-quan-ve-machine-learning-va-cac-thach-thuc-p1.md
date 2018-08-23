@@ -9,7 +9,7 @@ tags:
 layout: post
 subtitle: Machine Learning là cái quái gì thế nhỉ?
 author: levulinh
-series: tong-quan
+series: Tổng quan về Machine Learning và các thách thức
 share-img: /media/tong-quan/machine-learning-image.png
 ---
 

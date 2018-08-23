@@ -9,7 +9,7 @@ tags:
 layout: post
 subtitle: Cách người ta phân loại các thuật toán Machine Learning
 author: levulinh
-series: tong-quan
+series: Tổng quan về Machine Learning và các thách thức
 share-img: /media/tong-quan/batman-kmeans.png
 ---
 

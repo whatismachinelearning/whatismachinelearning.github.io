@@ -12,7 +12,7 @@
 
 {% if count != '0' %}
 <div class="series-container shadow-sm">
-    <p> <strong>Các bài viết cùng Series:</strong></p>
+    <p> <strong>Trong Series {{ page.series }}:</strong></p>
     <ul>
     {% assign count = '0' %}
     {% for post in site.posts reversed %}
@@ -22,7 +22,7 @@
         {% if page.url == post.url %}
             Bài viết này
         {% else %}
-            <a href="{{post.url}}">{{post.title}}</a>
+            <a href="{{post.url}}">{{post.subtitle}}</a>
         {% endif %}
         </li>
     {% endif %}
