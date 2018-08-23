@@ -95,19 +95,15 @@ layout: base
 </script>
 
 <script>
-    var element = document.documentElement,
-      body = document.body,
-      desireHeight = document.getElementsByClassName("navbar")[0].clientHeight
-        + document.getElementsByClassName("header-section")[0].clientHeight
-        + document.getElementsByClassName("blog-post")[0].clientHeight;
-      scrollTop = 'scrollTop',
-      scrollHeight = 'scrollHeight',
-      progress = document.querySelector('.progress-bar'),
-      scroll;
-    
-    document.addEventListener('scroll', function() {
-      scroll = (element[scrollTop]||body[scrollTop]) / (desireHeight) * 100;
-      if (scroll > 100) scroll = 100;
-      progress.style.setProperty('--scroll', scroll + '%');
-    });
-</script>
+  var element = document.documentElement,
+    body = document.body,
+    scrollTop = 'scrollTop',
+    scrollHeight = 'scrollHeight',
+    progress = document.querySelector('.progress-bar'),
+    scroll;
+  
+  document.addEventListener('scroll', function() {
+    scroll = (element[scrollTop]||body[scrollTop]) / ((element[scrollHeight]||body[scrollHeight]) - element.clientHeight) * 100;
+    progress.style.setProperty('--scroll', scroll + '%');
+  }); 
+  </script>
