@@ -11,6 +11,7 @@
 {% endfor %}
 
 {% if count != '0' %}
+<div class="series-container">
     <p> <strong>Các bài viết cùng Series:</strong></p>
     <ul>
     {% assign count = '0' %}
@@ -27,5 +28,21 @@
     {% endif %}
     {% endfor %}
     </ul>
+</div>
+
+<style>
+    .series-container {
+        background: linear-gradient(to bottom right, #272727, rgb(78, 78, 78));
+        color: #f5f6f7;
+        padding: 1rem 1rem;
+        border-radius: 8px;
+        margin-bottom: 1rem;
+    }
+
+    .series-container a {
+        color: #f5f6f7;
+        font-weight: bold;
+    }
+</style>
 {% endif %}
 {% endif %}
