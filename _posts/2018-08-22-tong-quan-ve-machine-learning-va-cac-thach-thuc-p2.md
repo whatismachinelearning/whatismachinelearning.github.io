@@ -10,6 +10,7 @@ layout: post
 subtitle: Cách người ta phân loại các thuật toán Machine Learning
 author: levulinh
 series: tong-quan
+share-img: /media/tong-quan/lin-reg.png
 ---
 
 Có rất nhiều thuật toán Machine Learning, nhiều đến mức chỉ nghe người khác nói chuyện về tên chúng thôi là đủ bạn đau đầu rồi (giống mình). Tuy vậy cũng giống như học tiếng Anh, chỉ có 20% số từ được dùng trong 80% các câu nói hàng ngày của bạn. Các thuật toán Machine Learning có rất nhiều điểm tương đồng được nhóm vào cùng nhóm, điều này có thể giúp bạn trả lời được câu hỏi muôn thuở: "Mình muốn học Machine Learning thì bắt đầu từ đâu nhỉ?".
@@ -24,7 +25,7 @@ Có nhiều cách mà các thuật toán ML tương tác với môi trường d�
 
 ### Supervised Learning
 
-![Linear Regression](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Linear_regression.svg/438px-Linear_regression.svg.png)
+![Linear Regression](/media/tong-quan/lin-reg.png)
 *Ví dụ về Linear Regression - Nguồn: Wikipeia*
 
 Supervised Learning, hay học có giám sát, là loại bài toán phổ biến nhất trong các thuật toán Machine Learning. Dữ liệu của bài toán này là các cặp (data, label) trong đó label là *output* tương ứng với mỗi data. Nhớ lại ví dụ về [Bài toán phân loại mail rác](/2018-08-17-tong-quan-ve-machine-learning-va-cac-thach-thuc-p1/#machine-learning-vs-hard-code) đã nhắc tới ở bài trước, nội dung mail là data và cờ do người dùng gắn là label.
