@@ -31,10 +31,10 @@ navbar-links:
   - Chính sách: policy
   Về nhóm tác giả: aboutme
   <i class="fa fa-search" aria-hidden="true"></i>: search
-title-img: "/img/avatar-new.png"
-navbar-col: "#353535"
-navbar-text-col: "#dedede"
-navbar-children-col: "#353535"
+title-img: "/img/avatar-new-transparent.png"
+navbar-col: "hsla(0,0%,100%,.95)"
+navbar-text-col: "#111111"
+navbar-children-col: "hsla(0,0%,100%,.95)"
 page-col: "#FFFFFF"
 link-col: "#008AFF"
 hover-col: "#0085A1"
