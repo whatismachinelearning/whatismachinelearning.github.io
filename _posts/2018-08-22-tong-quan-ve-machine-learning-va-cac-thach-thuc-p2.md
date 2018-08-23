@@ -10,7 +10,7 @@ layout: post
 subtitle: Cách người ta phân loại các thuật toán Machine Learning
 author: levulinh
 series: tong-quan
-share-img: /media/batman-kmeans.png
+share-img: /media/tong-quan/batman-kmeans.png
 ---
 
 Có rất nhiều thuật toán Machine Learning, nhiều đến mức chỉ nghe người khác nói chuyện về tên chúng thôi là đủ bạn đau đầu rồi (giống mình). Tuy vậy cũng giống như học tiếng Anh, chỉ có 20% số từ được dùng trong 80% các câu nói hàng ngày của bạn. Các thuật toán Machine Learning có rất nhiều điểm tương đồng được nhóm vào cùng nhóm, điều này có thể giúp bạn trả lời được câu hỏi muôn thuở: "Mình muốn học Machine Learning thì bắt đầu từ đâu nhỉ?".
@@ -48,7 +48,7 @@ Về ứng dụng có thể kể tới nhóm các thuật toán gợi ý nội d
 
 Thuật toán cơ bản nhất của loại này có thể nói đến K-means clustering.
 
-![K-means](/media/batman-kmeans.png)
+![K-means](/media/tong-quan/batman-kmeans.png)
 *Ứng dụng của K-means vào tìm màu chính trong ảnh - Nguồn: <https://www.pyimagesearch.com>*
 
 ### Semi-supervised learing
