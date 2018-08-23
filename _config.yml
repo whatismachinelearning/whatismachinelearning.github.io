@@ -1,6 +1,6 @@
 ---
 title: TuHoc.ML
-timezone: Asia/Ho_Chi_Minh
+timezone: Asia/Bangkok
 collections:
   posts:
     title: Posts
@@ -64,8 +64,8 @@ share-links-active:
   google: true
   linkedin: true
 url-pretty: tuhoc.ml
-fb_comment_id: '462955144219041'
-fb_app_id: '462955144219041'
+fb_comment_id: 462955144219041
+fb_app_id: 462955144219041
 excerpt_length: 50
 title-separator: "-"
 markdown: kramdown
