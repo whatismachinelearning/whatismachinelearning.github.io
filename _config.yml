@@ -31,7 +31,7 @@ navbar-links:
   - Chính sách: policy
   Về nhóm tác giả: aboutme
   <i class="fa fa-search" aria-hidden="true"></i>: search
-title-img: "/img/avatar-new-transparent.png"
+title-img: "/img/avatar-transparent.png"
 navbar-col: "hsla(0,0%,100%,.95)"
 navbar-text-col: "#111111"
 navbar-children-col: "hsla(0,0%,100%,.95)"
