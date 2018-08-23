@@ -860,8 +860,6 @@ h6:hover .header-link {
   background: linear-gradient(to right, #2196F3 var(--scroll), transparent 0);
   background-repeat: no-repeat;
   width: 100%;
-  position: fixed;
-  bottom: 0;
   left: 0;
   height: 4px;
   z-index: 1;
