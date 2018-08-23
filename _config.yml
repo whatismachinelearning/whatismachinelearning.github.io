@@ -65,6 +65,7 @@ paginate: 5
 kramdown:
   input: GFM
 link-tags: true
+gtag: "UA-84766634-1"
 exclude:
 - CHANGELOG.md
 - CNAME
