@@ -34,7 +34,7 @@ layout: base
         {{ content }}
       </article>
 
-      {% assign author = site.data.authors[page.author] %}
+      {%- assign author = site.data.authors[page.author] -%}
       {% if author %}
       {% include  author.html %}
       {% endif %}
