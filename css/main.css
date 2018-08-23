@@ -155,19 +155,6 @@ img {
   height: 40px;
 }
 
-@media only screen and (min-width: 768px) {
-  .navbar-custom {
-    padding: 20px 0;
-    -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-    -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-    transition: background .5s ease-in-out,padding .5s ease-in-out;
-  }
-
-  .navbar-custom.top-nav-short {
-    padding: 0;
-  }
-}
-
 .navbar-custom .avatar-container {
   position: absolute;
   left: 50%;
