@@ -110,7 +110,6 @@ img {
 
 .navbar-custom {
   background-color: {{ site.navbar-col }};
-  border-bottom: 1px solid #EAEAEA;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   {% if site.navbar-img %}
   background-image: url({{ site.navbar-img }});
@@ -861,7 +860,7 @@ h6:hover .header-link {
   background-repeat: no-repeat;
   width: 100%;
   left: 0;
-  height: 4px;
+  height: 2px;
   z-index: 1;
 }
 
