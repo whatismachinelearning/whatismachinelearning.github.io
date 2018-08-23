@@ -11,7 +11,7 @@
 {% endfor %}
 
 {% if count != '0' %}
-<div class="series-container">
+<div class="series-container shadow-sm">
     <p> <strong>Các bài viết cùng Series:</strong></p>
     <ul>
     {% assign count = '0' %}
@@ -37,6 +37,7 @@
         padding: 1rem 1rem;
         border-radius: 8px;
         margin-bottom: 1rem;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
     .series-container a {
