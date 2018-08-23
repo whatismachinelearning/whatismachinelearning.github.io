@@ -153,7 +153,7 @@ Một cách phân loại rất phổ biến khác là phân loại theo sự tư
 Vẫn còn nhưng nhiêu đây đủ chóng mặt rồi nhỉ :)) hi vọng các bạn sẽ chọn được một thuật toán của mỗi nhóm để bắt đầu học nhé.
 
 {: .box-warning}
-*Copyright issues:* In case you think that the contents on this post violate your copyright terms, please contact me and I will reply you ASAP.
+**Copyright issues:** In case you think that the contents on this post violate your copyright terms, please contact me and I will reply you ASAP.
 
 ## Lời cuối
 
