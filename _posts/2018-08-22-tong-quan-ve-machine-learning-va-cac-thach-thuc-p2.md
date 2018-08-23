@@ -1,15 +1,15 @@
 ---
-layout: post
 title: Tổng quan về Machine Learning và các thách thức (Phần 2)
-subtitle: Cách người ta phân loại các thuật toán Machine Learning
+date: 2018-08-22 00:00:00 +07:00
 categories:
-  - Tổng quan
+- Tổng quan
 tags:
-  - machine learning
-  - basic
+- machine learning
+- basic
+layout: post
+subtitle: Cách người ta phân loại các thuật toán Machine Learning
 author: levulinh
 series: tong-quan
-published: true
 ---
 
 Có rất nhiều thuật toán Machine Learning, nhiều đến mức chỉ nghe người khác nói chuyện về tên chúng thôi là đủ bạn đau đầu rồi (giống mình). Tuy vậy cũng giống như học tiếng Anh, chỉ có 20% số từ được dùng trong 80% các câu nói hàng ngày của bạn. Các thuật toán Machine Learning có rất nhiều điểm tương đồng được nhóm vào cùng nhóm, điều này có thể giúp bạn trả lời được câu hỏi muôn thuở: "Mình muốn học Machine Learning thì bắt đầu từ đâu nhỉ?".

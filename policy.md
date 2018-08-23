@@ -1,6 +1,6 @@
 ---
-layout: page
 title: Điều khoản và chính sách
+layout: page
 ---
 
 Toàn bộ nội dung trong bài, source code, và hình ảnh minh họa (trừ nội dung có trích dẫn) đều thuộc bản quyền của **AI team - Mandevices**.

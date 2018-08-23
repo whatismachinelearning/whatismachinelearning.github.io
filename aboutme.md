@@ -1,6 +1,6 @@
 ---
-layout: page
 title: Về chúng tôi
+layout: page
 subtitle: Chúng tôi là ai
 ---
 

@@ -1,16 +1,17 @@
 ---
-layout: post
 title: Tổng quan về Machine Learning và các thách thức (Phần 1)
-subtitle: Machine Learning là cái quái gì thế nhỉ?
+date: 2018-08-17 00:00:00 +07:00
 categories:
-  - Tổng quan
+- Tổng quan
 tags:
-  - machine learning
-  - basic
+- machine learning
+- basic
+layout: post
+subtitle: Machine Learning là cái quái gì thế nhỉ?
 author: levulinh
 series: tong-quan
-published: true
 ---
+
 Machine Learning (ML) đã xuất hiện cách đây hàng thập kỉ từ lúc có nhận diện kí tự quang học (Optical Character Recognition - OCR) và nhiều ứng dụng khác. Nhưng mới đây TV và báo đài mới nói nhiều về nó và thằng em của nó là Deep Learning nên người ta tưởng đây là lĩnh vực mới  chứ thực ra nó chỉ đang bùng nổ thôi.
 
 ## AI và "The hype"
