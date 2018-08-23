@@ -65,70 +65,95 @@ Ví dụ về học tăng cường có thể xem qua video thú vị sau:
 
 ## Phân loại theo chức năng
 
-Một cách phân loại rất phổ biến khác là phân loại theo nhóm chức năng. Sau đây là list các nhóm thuật toán nên học (tham khảo từ vài nguồn). Sau này mình sẽ cố gắng viết về tất cả các thuật toán dưới đây:
+{: .box-note}
+**Chỉnh sửa:** Sau khi được chỉ ra có vấn đề trong bài viết mình đã quyết định sửa lại từ "phân loại theo chức năng" thành "phần loại theo sự tương tự". Phần phía dưới sẽ được trích trực tiếp từ blog [Machinelearningmastery.com](https://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/) (Mình đã đọc kĩ Terms of service của họ rồi nhé :p)
 
-### Bài toán Regression (hồi quy)
+Một cách phân loại rất phổ biến khác là phân loại theo sự tương tự về chức năng. Sau đây là list các nhóm thuật toán nên học mà mình lượm được ở nguồn bên trên. Sau này mình sẽ cập nhật link tới các bài viết dần (nếu có), còn bây giờ mọi người xem tạm cái list này nhé.
 
-Về định nghĩa:
-
->Phân tích hồi quy là một phân tích thống kê để xác định xem các biến độc lập (biến thuyết minh) quy định các biến phụ thuộc (biến được thuyết minh) như thế nào. - [Wikipedia](https://vi.wikipedia.org/wiki/Ph%C3%A2n_t%C3%ADch_h%E1%BB%93i_quy)
-
-Nói cách khác các bài toán hồi quy quan tâm đến sự tương quan giữa các biến (features) và điều chỉnh dần theo dữ liệu đầu vào.
-
-Một số thuật toán Regression nổi tiếng:
+### Regression Algorithms
 - Ordinary Least Squares Regression (OLSR)
 - Linear Regression
 - Logistic Regression
 - Stepwise Regression
+- Multivariate Adaptive Regression Splines (MARS)
+- Locally Estimated Scatterplot Smoothing (LOESS)
 
-### Các thuật toán Instance based (học theo điểm dữ liệu)
-
-Nói ngắn gọn thì học theo điểm dữ liệu là học thuộc lòng dữ liệu input, rồi xác định output của điểm dữ liệu mới dựa trên **sự tương tự** của nó với các điểm cũ. Các bài toán kiểu này thường có thời gian training ngắn hơn thời gian dự đoán.
-
-Một vài thuật toán nổi tiếng của loại này:
+### Instance-based Algorithms
 - k-Nearest Neighbor (kNN)
 - Learning Vector Quantization (LVQ)
+- Self-Organizing Map (SOM)
+- Locally Weighted Learning (LWL)
 
-### Các bài toán Classification (Phân loại)
-- Linear Classifier
-- Support Vector Machine (SVM)
-- Kernel SVM
-- Sparse Representation-based classification (SRC)
-
-### Các thuật toán Regularize (không biết phải dịch như nào cho hay)
-
+### Regularization Algorithms
 - Ridge Regression
 - Least Absolute Shrinkage and Selection Operator (LASSO)
+- Elastic Net
 - Least-Angle Regression (LARS)
 
-### Các thuật toán Bayesian
-
-- Naive Bayes
-- Gaussian Naive Bayes
-
-### Các thuật toán Clustering (Phân cụm)
-
-- k-Means clustering
-- k-Medians
-- Expectation Maximization (EM)
-
-### Artificial Neural Network Algorithms
-- Perceptron
-- Softmax Regression
-- Multi-layer Perceptron
-- Back-Propagation
-
-### Các bài toán Tree based (Cây quyết định)
-
+### Decision Tree Algorithms
 - Classification and Regression Tree (CART)
 - Iterative Dichotomiser 3 (ID3)
-- C4.5 and C5.0
+- C4.5 and C5.0 (different versions of a powerful approach)
 - Chi-squared Automatic Interaction Detection (CHAID)
 - Decision Stump
 - M5
 - Conditional Decision Trees
 
-Và còn RẤT NHIỀU các thuật toán khác, mình xin được phép giới thiệu dần trong các bài viết sau.
+### Bayesian Algorithms
+- Naive Bayes
+- Gaussian Naive Bayes
+- Multinomial Naive Bayes
+- Averaged One-Dependence Estimators (AODE)
+- Bayesian Belief Network (BBN)
+- Bayesian Network (BN)
+
+### Clustering Algorithms
+- k-Means
+- k-Medians
+- Expectation Maximisation (EM)
+- Hierarchical Clustering
+
+### Association Rule Learning Algorithms
+- Apriori algorithm
+- Eclat algorithm
+
+### Artificial Neural Network Algorithms
+- Perceptron
+- Back-Propagation
+- Hopfield Network
+- Radial Basis Function Network (RBFN)
+
+### Deep Learning Algorithms
+- Deep Boltzmann Machine (DBM)
+- Deep Belief Networks (DBN)
+- Convolutional Neural Network (CNN)
+- Stacked Auto-Encoders
+
+### Dimensionality Reduction Algorithms
+- Principal Component Analysis (PCA)
+- Principal Component Regression (PCR)
+- Partial Least Squares Regression (PLSR)
+- Sammon Mapping
+- Multidimensional Scaling (MDS)
+- Projection Pursuit
+- Linear Discriminant Analysis (LDA)
+- Mixture Discriminant Analysis (MDA)
+- Quadratic Discriminant Analysis (QDA)
+- Flexible Discriminant Analysis (FDA)
+
+### Ensemble Algorithms
+- Boosting
+- Bootstrapped Aggregation (Bagging)
+- AdaBoost
+- Stacked Generalization (blending)
+- Gradient Boosting Machines (GBM)
+- Gradient Boosted Regression Trees (GBRT)
+- Random Forest
+
+Vẫn còn nhưng nhiêu đây đủ chóng mặt rồi nhỉ :)) hi vọng các bạn sẽ chọn được một thuật toán của mỗi nhóm để bắt đầu học nhé.
+
+{: .box-warning}
+*Copyright issues:* In case you think that the contents on this post violate your copyright terms, please contact me and I will reply you ASAP.
 
 ## Lời cuối
 
