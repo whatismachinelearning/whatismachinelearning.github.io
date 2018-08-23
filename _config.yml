@@ -1,61 +1,47 @@
-# --- General options --- #
-
-# url is the full website URL
-# baseurl is the website's URL without the hostname
-
-# If you are building a simple GitHub user page (http://username.github.io) then use these settings:
-url: "https://tuhoc.ml"
-baseurl: "/"
-
-# If you are building a GitHub project page then use these settings:
-#url: "http://username.github.io/projectname"
-#baseurl: "/projectname"
-
-# Of course don't forget to change the username and projectname to YOUR username and project
-
-# Name of website
+---
 title: TuHoc.ML
-
-# Short description of your site
+timezone: Asia/Ho_Chi_Minh
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    comments: true
+    social-share: true
+- scope:
+    path: ''
+  values:
+    layout: page
+    show-avatar: true
+url: https://tuhoc.ml
+baseurl: "/"
 description: Thế giới Machine Learning của những người vui tính
-
-# --- Navigation bar options --- #
-
-# List of links in the navigation bar
 navbar-links:
   Tra cứu:
-    - Danh mục: "categories"
-    - Tags: "tags"
-    - Chính sách: "policy"
-  Về nhóm tác giả: "aboutme"
-  <i class="fa fa-search" aria-hidden="true"></i>: "search"
-
-# Image to show in the navigation bar - image must be a square (width = height)
-# Remove this parameter if you don't want an image in the navbar
-# avatar: "/img/avatar-new.png"
-
-# If you want to have an image logo in the top-left corner instead of the title text,
-# then specify the following parameter
-title-img: /img/avatar-new.png
-
-# --- Authors information --- #
+  - Danh mục: categories
+  - Tags: tags
+  - Chính sách: policy
+  Về nhóm tác giả: aboutme
+  <i class="fa fa-search" aria-hidden="true"></i>: search
+title-img: "/img/avatar-new.png"
 authors:
   levulinh:
     display_name: Linh Le Vu
-    about: "CTTT Điều khiển tự động - K59<br />
-    Thanh niên viện Điện yêu khoa học máy tính.<br />
-    I <3 Singapore"
+    about: CTTT Điều khiển tự động - K59<br /> Thanh niên viện Điện yêu khoa học máy
+      tính.<br /> I <3 Singapore
     email: mailto:levulinhbk@gmail.com
     web: https://tuhoc.ml
     facebook: https://fb.com/levulinhbk
     github: https://github.com/levulinh
-    avatar: /img/avatar-linh.png
-
-
-# --- Background colour/image options --- #
-
-# Personalize the colors in your website. Colour values can be any valid CSS colour
-
+    avatar: "/img/avatar-linh.png"
 navbar-col: "#353535"
 navbar-text-col: "#dedede"
 navbar-children-col: "#353535"
@@ -65,198 +51,93 @@ hover-col: "#0085A1"
 footer-col: "#F5F5F5"
 footer-text-col: "#777777"
 footer-link-col: "#404040"
-
-# Alternatively, the navbar, footer, and page background can be set to use background images
-# instead of colour
-
-# navbar-img: "/img/bgimage.png"
-# footer-img: "/img/bgimage.png"
-# page-img: "/img/bgimage.png"
-
-# --- Footer options --- #
-
-# Change all these values or delete the ones you don't want.
-# Important: you must keep the "name" parameter, everything else you can remove
 author:
   name: Mandevices AI team
-
-# Select your active Social Network Links.
-# Uncomment the links you want to show in the footer and add your information to each link.
-# You can reorder the items to define the link order.
-# If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
   rss: true
-  email: "levulinhbk@gmail.com"
+  email: levulinhbk@gmail.com
   facebook: levulinhbk
   github: levulinh
-#  twitter: daattali
-#  reddit: yourname
-#  google-plus: +DeanAttali
-#  linkedin: daattali
-#  xing: yourname
-#  stackoverflow: "3943160/daattali"
-#  snapchat: deanat78
-#  instagram: deanat78
-#  youtube: user/deanat78
-#  spotify: yourname
-#  telephone: +14159998888
-#  steam: deanat78
-#  twitch: yourname
-#  yelp: yourname
-
-# Select which share links to show in posts
 share-links-active:
   twitter: true
   facebook: true
   google: true
   linkedin: true
-
-# How to display the link to the website in the footer
-# Remove this if you don't want a link in the footer
-url-pretty: "tuhoc.ml"  # eg. "deanattali.com/beautiful-jekyll"
-
-# --- Web Statistics Section --- #
-
-# Fill in your Google Analytics gtag.js ID to track your website using gtag
-#gtag: ""
-
-# Fill in your Google Analytics ID to track your website using GA
-#google_analytics: ""
-
-# Google Tag Manager ID
-#gtm: ""
-
-# Matomo (aka Piwik) Web statistics
-# Uncomment the following section to enable Matomo. The opt-out parameter controls
-# whether or not you want to allow users to opt out of tracking.
-
-#matomo:
-#  site_id: "9"
-#  uri: "demo.wiki.pro"
-#  opt-out: true
-
-# --- Comments --- #
-
-# Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-# disqus: ""
-
-# To use Facebook Comments, fill in a Facebook App ID
-fb_comment_id: "462955144219041"
-
-# --- Misc --- #
-
-# Facebook App ID
-fb_app_id: "462955144219041"
-
-# Excerpt Word Length
-# Truncates the excerpt to the specified number of words on the index page
+url-pretty: tuhoc.ml
+fb_comment_id: '462955144219041'
+fb_app_id: '462955144219041'
 excerpt_length: 50
-
-# Character used to separate site title and description in HTML document title
-# and RSS feed title
 title-separator: "-"
-
-# --- Don't need to touch anything below here (but you can if you want) --- #
-
-# Output options (more information on Jekyll's site)
-timezone: "Asia/Ho_Chi_Minh"
 markdown: kramdown
 highlighter: rouge
-permalink: /:year-:month-:day-:title/
+permalink: "/:year-:month-:day-:title/"
 paginate: 5
 kramdown:
   input: GFM
-
-# Default YAML values (more information on Jekyll's site)
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      comments: true  # add comments to all blog posts
-      social-share: true # add social media sharing buttons to all blog posts
-  -
-    scope:
-      path: "" # all files
-    values:
-      layout: "page"
-      show-avatar: true
-
-# Use tags index page and make tags on each post clickable
 link-tags: true
-
-# Exclude these files from production site
 exclude:
-  - CHANGELOG.md
-  - CNAME
-  - Dockerfile
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README.md
-  - Vagrantfile
-
-# prose.io config
+- CHANGELOG.md
+- CNAME
+- Dockerfile
+- Gemfile
+- Gemfile.lock
+- LICENSE
+- README.md
+- Vagrantfile
 prose:
-  rooturl: '_posts'
-  media: 'meida'
+  rooturl: _posts
+  media: meida
   ignore:
-    - 404.html
-    - LICENSE
-    - feed.xml
-    - /css
-    - /img
-    - /js
+  - 404.html
+  - LICENSE
+  - feed.xml
+  - "/css"
+  - "/img"
+  - "/js"
   metadata:
     _posts:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "post"
-      - name: "title"
-        field:
-          element: "text"
-          label: "Post title"
-          placeholder: "Title"
-          alterable: true
-      - name: "subtitle"
-        field:
-          element: "textarea"
-          label: "Subtitle"
-          placeholder: "A description of your post."
-          alterable: true
-      - name: "date"
-        field:
-          element: "text"
-          label: "Date"
-          help: "Enter date of post."
-          placeholder: "yyyy-mm-dd"
-          alterable: true
-      - name: "bigimg"
-        field:
-          element: "text"
-          label: "Image"
-          help: "Add a cover image to your post."
-          placeholder: "Thumbnail"
-          alterable: true
-      - name: "author"
-        field:
-          element: "select"
-          label: "Post author"
-          options:
-            - name: "Lê Vũ Linh"
-              value: "levulinh"
-      - name: "published"
-        field:
-          element: "checkbox"
-          label: "Publish"
-          help: "Check to publish post, uncheck to hide."
-
+    - name: layout
+      field:
+        element: hidden
+        value: post
+    - name: title
+      field:
+        element: text
+        label: Post title
+        placeholder: Title
+        alterable: true
+    - name: subtitle
+      field:
+        element: textarea
+        label: Subtitle
+        placeholder: A description of your post.
+        alterable: true
+    - name: date
+      field:
+        element: text
+        label: Date
+        help: Enter date of post.
+        placeholder: yyyy-mm-dd
+        alterable: true
+    - name: bigimg
+      field:
+        element: text
+        label: Image
+        help: Add a cover image to your post.
+        placeholder: Thumbnail
+        alterable: true
+    - name: author
+      field:
+        element: select
+        label: Post author
+        options:
+        - name: Lê Vũ Linh
+          value: levulinh
+    - name: published
+      field:
+        element: checkbox
+        label: Publish
+        help: Check to publish post, uncheck to hide.
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-
-# Beautiful Jekyll / Dean Attali
-# 2fc73a3a967e97599c9763d05e564189
+- jekyll-paginate
+- jekyll-sitemap
