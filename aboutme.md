@@ -12,6 +12,7 @@ Chúng tôi là thành viên nhóm AI thuộc lab **Mandevices - Đại học B�
 - Đặng Quý Dương - Điều khiển và TĐH K60
 - Lê Thị Hoài Linh - Điều khiển và TĐH K60
 - Đoàn Quang Khải - Điều khiển và TĐH K60
+- Nguyễn Xuân Nhật - Điều khiển và TĐH K60
 
 Chúng tôi cũng như bạn - đang tìm hiểu về Machine Learning. Blog này được viết ra với hi vọng mang tới các bạn sinh viên Việt Nam như chúng tôi một cách tiếp cận mới về Machine Learning (ML), một hướng tiếp cận gần gũi, dễ hiểu và không làm các bạn bị "lạc" trong mê cung toán học.
 
