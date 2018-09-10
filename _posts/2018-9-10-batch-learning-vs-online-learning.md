@@ -1,6 +1,5 @@
 ---
 title: So sánh Batch Learning và Online Learning
-date: 2018-08-22 00:00:00 +07:00
 categories:
 - Tổng quan
 tags:
