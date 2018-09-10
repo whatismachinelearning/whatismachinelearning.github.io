@@ -18,8 +18,9 @@ Bắt đầu đi vào cụ thể hai em nó là cái gì nào!
 
 ## BATCH LEARNING
 
+{: .mx-auto .d-block}
 ![Batch learning](/media/tong-quan/training-model.png)
-*Training - Nguồn: <https://www.slideshare.net/queirozfcom/online-machine-learning-introduction-and-examples>*
+*Training - Nguồn: [slideshare](https://www.slideshare.net/queirozfcom/online-machine-learning-introduction-and-examples)*
 
 Trước hết, cứ theo bảng chữ cái mà táng, nói về bạn Batch Learning (có thể dịch là Học hàng loạt). Đại loại là mọi người đưa toàn bộ dữ liệu training vào hệ thống. Nghe cũng thấy là ăn tham thì nuốt không trôi rồi. Việc học kiểu này khá tốn thời gian và tài nguyên của máy tính thậm chí có khả năng vượt quá bộ nhớ của máy tính. Mà thời gian và tài nguyên đều rất tốn tiền. 
 
