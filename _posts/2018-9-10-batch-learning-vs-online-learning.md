@@ -18,7 +18,6 @@ Bắt đầu đi vào cụ thể hai em nó là cái gì nào!
 
 ## BATCH LEARNING
 
-{: .mx-auto .d-block}
 ![Batch learning](/media/tong-quan/training-model.png)
 *Training - Nguồn: [slideshare](https://www.slideshare.net/queirozfcom/online-machine-learning-introduction-and-examples)*
 
