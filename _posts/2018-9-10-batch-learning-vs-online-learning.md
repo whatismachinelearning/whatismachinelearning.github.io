@@ -9,7 +9,7 @@ layout: post
 subtitle: Tại sao chúng lại được đem ra so sánh với nhau
 author: yennhi
 series: Tổng quan về Machine Learning và các thách thức
-share-img: /media/tong-quan/batman-kmeans.png
+share-img: /media/tong-quan/offline-learning.png
 ---
 
 Khi mình đọc đến phần phân loại các hệ thống Machine Learning (ML) mình cũng đã đưa ra câu hỏi này. Lẽ nào hai em nó có duyên nghiệp từ kiếp trước vì khi đọc tên (Học hàng loạt và học trực tuyến) thấy hai em nó chẳng có gì liên quan đến nhau cả. Bài viết này có lẽ sẽ giúp các bạn giải đáp thắc mắc này.
